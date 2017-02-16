@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat da schoolofnet</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div id="chat">
+            <div class="col-md-8">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Chat</div>
+                    <div class="panel-body">
+                        <ul class="chat list-unstyled" v-for="o in chat.messages">
+
+                            <li class="clearfix" v-bind:class="{'left' : o.email !== user.email, 'right' : o.email === user.email}"> <span v-bind:class="{'pull-left' : o.email !== user.email, 'pull-right' : o.email === user.email}">
+                                <img src="{{o.photo}}" class="img-circle">
+                            </span>
+                                <div class="chat-body">
+                                    <strong>{{o.name}}</strong>
+                                    <p>{{o.text}}</p>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="input-group">
+                            <input type="text" class="form-control input-md"
+                                   placeholder="Digite sua mensagem"/>
+                            <span class="input-group-btn">
+                                <button class="btn btn-success btn-md">Enviar</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/vue/dist/vue.min.js"></script>
+<script src="assets/js/chat.js"></script>
+</html>
