@@ -2,90 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a279550-cf9d-4633-96b1-27aafa118f0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/dist/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/dist/vue.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/dist/vue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/dist/vue.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/dist/vue.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/batcher.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/compiler/compile-props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/compiler/compile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/compiler/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/compiler/resolve-slots.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/compiler/transclude.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/element/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/element/partial.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/element/slot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/internal/class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/internal/component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/internal/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/internal/prop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/internal/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/internal/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/priorities.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/bind.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/cloak.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/for.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/if.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/model/checkbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/model/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/model/radio.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/model/select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/model/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/on.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/ref.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/show.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/directives/public/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/filters/array-filters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/filters/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/fragment/factory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/fragment/fragment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/global-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/api/data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/api/dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/api/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/api/lifecycle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/internal/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/internal/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/internal/lifecycle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/internal/misc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/internal/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/instance/vue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/observer/array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/observer/dep.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/observer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/parsers/directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/parsers/expression.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/parsers/path.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/parsers/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/parsers/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/transition/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/transition/queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/transition/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/util/component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/util/debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/util/dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/util/env.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/util/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/util/lang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/util/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vue/src/watcher.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/app/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/js/chat.js" afterPath="$PROJECT_DIR$/app/js/chat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
@@ -111,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state relative-caret-position="270">
+              <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -121,26 +39,42 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="81" column="6" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+            <state relative-caret-position="720">
+              <caret line="136" column="35" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
               <folding>
-                <marker date="1487334045831" expanded="true" signature="94:759" ph="..." />
-                <marker date="1487334045831" expanded="true" signature="122:181" ph="{...}" />
-                <marker date="1487334045831" expanded="true" signature="211:325" ph="{...}" />
-                <marker date="1487334045831" expanded="true" signature="371:438" ph="{...}" />
-                <marker date="1487334045831" expanded="true" signature="485:596" ph="{...}" />
-                <marker date="1487334045831" expanded="true" signature="629:735" ph="{...}" />
-                <marker date="1487334045831" expanded="true" signature="809:2256" ph="..." />
-                <marker date="1487334045831" expanded="true" signature="912:1680" ph="..." />
-                <marker date="1487334045831" expanded="true" signature="968:1653" ph="..." />
-                <marker date="1487334045831" expanded="true" signature="1018:1623" ph="..." />
-                <marker date="1487334045831" expanded="true" signature="1253:1376" ph="..." />
-                <marker date="1487334045831" expanded="true" signature="1432:1589" ph="..." />
-                <marker date="1487334045831" expanded="true" signature="1727:2233" ph="..." />
-                <marker date="1487334045831" expanded="true" signature="1777:2206" ph="..." />
-                <marker date="1487334045831" expanded="true" signature="1855:1972" ph="..." />
-                <marker date="1487334045831" expanded="true" signature="2031:2175" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="461:1126" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="489:548" ph="{...}" />
+                <marker date="1487358655091" expanded="true" signature="578:692" ph="{...}" />
+                <marker date="1487358655091" expanded="true" signature="738:805" ph="{...}" />
+                <marker date="1487358655091" expanded="true" signature="852:963" ph="{...}" />
+                <marker date="1487358655091" expanded="true" signature="996:1102" ph="{...}" />
+                <marker date="1487358655091" expanded="true" signature="1176:2596" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="1279:2047" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="1335:2020" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="1385:1990" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="1620:1743" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="1799:1956" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="2094:2573" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="2144:2546" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="2222:2312" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="2371:2515" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="4177:4556" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="4223:4541" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="4267:4321" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="4362:4522" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="6024:6119" ph="..." />
+                <marker date="1487358655091" expanded="true" signature="6060:6105" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,11 +96,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/assets/js/chat.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/app.js" />
       </list>
@@ -213,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -262,7 +197,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,24 +274,25 @@
       <option name="presentableId" value="Default" />
       <updated>1487265985942</updated>
       <workItem from="1487265987351" duration="6322000" />
-      <workItem from="1487331847863" duration="2569000" />
+      <workItem from="1487331847863" duration="7426000" />
+      <workItem from="1487349463588" duration="7524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8891000" />
+    <option name="totallyTimeSpent" value="21272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25262576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25538972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -390,6 +325,53 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="119" column="56" selection-start-line="119" selection-start-column="56" selection-end-line="119" selection-end-column="56" />
+          <folding>
+            <marker date="1487358655091" expanded="true" signature="461:1126" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="489:548" ph="{...}" />
+            <marker date="1487358655091" expanded="true" signature="578:692" ph="{...}" />
+            <marker date="1487358655091" expanded="true" signature="738:805" ph="{...}" />
+            <marker date="1487358655091" expanded="true" signature="852:963" ph="{...}" />
+            <marker date="1487358655091" expanded="true" signature="996:1102" ph="{...}" />
+            <marker date="1487358655091" expanded="true" signature="1176:2596" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="1279:2047" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="1335:2020" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="1385:1990" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="1620:1743" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="1799:1956" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="2094:2573" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="2144:2546" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="2222:2312" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="2371:2515" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="4177:4556" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="4223:4541" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="4267:4321" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="4362:4522" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="6024:6119" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="6060:6105" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
           <folding />
@@ -400,15 +382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -431,39 +404,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vue-router/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="270">
+          <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="81" column="6" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+        <state relative-caret-position="720">
+          <caret line="136" column="35" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
           <folding>
-            <marker date="1487334045831" expanded="true" signature="94:759" ph="..." />
-            <marker date="1487334045831" expanded="true" signature="122:181" ph="{...}" />
-            <marker date="1487334045831" expanded="true" signature="211:325" ph="{...}" />
-            <marker date="1487334045831" expanded="true" signature="371:438" ph="{...}" />
-            <marker date="1487334045831" expanded="true" signature="485:596" ph="{...}" />
-            <marker date="1487334045831" expanded="true" signature="629:735" ph="{...}" />
-            <marker date="1487334045831" expanded="true" signature="809:2256" ph="..." />
-            <marker date="1487334045831" expanded="true" signature="912:1680" ph="..." />
-            <marker date="1487334045831" expanded="true" signature="968:1653" ph="..." />
-            <marker date="1487334045831" expanded="true" signature="1018:1623" ph="..." />
-            <marker date="1487334045831" expanded="true" signature="1253:1376" ph="..." />
-            <marker date="1487334045831" expanded="true" signature="1432:1589" ph="..." />
-            <marker date="1487334045831" expanded="true" signature="1727:2233" ph="..." />
-            <marker date="1487334045831" expanded="true" signature="1777:2206" ph="..." />
-            <marker date="1487334045831" expanded="true" signature="1855:1972" ph="..." />
-            <marker date="1487334045831" expanded="true" signature="2031:2175" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="461:1126" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="489:548" ph="{...}" />
+            <marker date="1487358655091" expanded="true" signature="578:692" ph="{...}" />
+            <marker date="1487358655091" expanded="true" signature="738:805" ph="{...}" />
+            <marker date="1487358655091" expanded="true" signature="852:963" ph="{...}" />
+            <marker date="1487358655091" expanded="true" signature="996:1102" ph="{...}" />
+            <marker date="1487358655091" expanded="true" signature="1176:2596" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="1279:2047" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="1335:2020" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="1385:1990" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="1620:1743" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="1799:1956" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="2094:2573" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="2144:2546" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="2222:2312" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="2371:2515" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="4177:4556" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="4223:4541" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="4267:4321" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="4362:4522" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="6024:6119" ph="..." />
+            <marker date="1487358655091" expanded="true" signature="6060:6105" ph="..." />
           </folding>
         </state>
       </provider>
