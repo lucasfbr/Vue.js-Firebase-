@@ -4,25 +4,55 @@
     <meta charset="UTF-8">
     <title>Chat da schoolofnet</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 <div class="container">
     <div class="row">
-        <div id="chat">
-            <div class="col-md-8">
+        <div id="chat" class="col-md-8">
+            <my-chat></my-chat>
+        </div>
+    </div>
+</div>
+</body>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/vue/dist/vue.min.js"></script>
+<script type="text/javascript">
+    //criando o componente
+    //como este componete utiliza as informacçoes do data
+    //precisamos colocar o data e os metodos dentro do component
+    var chatComponent = Vue.extend({
+        template: `
+                <style type="text/css">
+                    .chat {
+                        padding: 0;
+                    }
+                    .chat li {
+                        margin-bottom: 10px;
+                        padding-bottom: 10px;
+                    }
+                    .chat li.left .chat-body {
+                        margin-left: 100px;
+                    }
+                    .chat li.right .chat-body {
+                        text-align: right;
+                        margin-right: 100px;
+                    }
+                    .panel-body {
+                        overflow-y: scroll;
+                        height: 400px;
+                    }
+                </style>
                 <div class="panel panel-primary">
                     <div class="panel-heading">Chat</div>
                     <div class="panel-body">
                         <ul class="chat list-unstyled" v-for="o in chat.messages">
-
                             <li class="clearfix" v-bind:class="{'left' : o.email !== user.email, 'right' : o.email === user.email}"> <span v-bind:class="{'pull-left' : o.email !== user.email, 'pull-right' : o.email === user.email}">
                                 <img src="{{o.photo}}" class="img-circle">
                             </span>
                                 <div class="chat-body">
                                     <strong>{{o.name}}</strong>
                                     <p>{{o.text}}</p>
-
                                 </div>
                             </li>
                         </ul>
@@ -37,13 +67,54 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-</body>
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="node_modules/vue/dist/vue.min.js"></script>
-<script src="assets/js/chat.js"></script>
+           `,
+        data: function () {
+            return {
+                user: {
+                    name: 'Lucas Rosa',
+                    email: 'lucas-fbr@hotmail.com'
+                },
+                chat: {
+                    messages: [
+                        {
+                            email: 'fulano@gmail.com',
+                            text: 'Olá, eu sou fulano, como você esta?',
+                            name: 'Fulano',
+                            photo: 'https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50'
+                        },
+                        {
+                            email: 'lucas-fbr@hotmail.com',
+                            text: 'Estou jóia, meu nome é luiz carlos',
+                            name: 'Lucas Rosa',
+                            photo: 'https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50'
+                        },
+                        {
+                            email: 'lucas-fbr@hotmail.com',
+                            text: 'não te conheço',
+                            name: 'Lucas Rosa',
+                            photo: 'https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50'
+                        }
+                    ]
+                }
+            };
+        },
+        methods: {
+            isUser: function (email) {
+                //return this.user.email == email;
+
+                return alert('sddasdasdasd')
+            }
+        },
+        ready: function () {
+
+        }
+    });
+
+    //registrando o componente
+    Vue.component('my-chat', chatComponent);
+
+    var chat = new Vue({
+        el: '#chat',
+    });
+</script>
 </html>
