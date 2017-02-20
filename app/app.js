@@ -50,7 +50,7 @@ var chatComponent = Vue.extend({
                     <div class="panel-footer">
                         <div class="input-group">
                             <input type="text" class="form-control input-md" 
-                                    placeholder="Digite sua mensagem" v-model="message"/>
+                                    placeholder="Digite sua mensagem" v-model="message" @keyup.enter="sendMessage"/>
                             <span class="input-group-btn">
                                 <button class="btn btn-success btn-md" @click="sendMessage">Enviar</button>
                             </span>
@@ -60,42 +60,31 @@ var chatComponent = Vue.extend({
         `,
     created: function () {
         var rommRef = 'chat/rooms/' + this.$route.params.room;
-        this.$bindAsArray('messages', db.ref(ref + '/messages'));
+        this.$bindAsArray('messages', db.ref(rommRef + '/messages'));
     },
     data: function () {
         return {
             user: {
-                email: 'lucas-fbr@hotmail.com',
-                name: 'Lucas Rosa',
-                photo: 'https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50'
+                email: localStorage.getItem('email'),
+                name: localStorage.getItem('name'),
+                photo: localStorage.getItem('photo'),
             },
             message: ''
-           /* messages: [
-                {
-                    email: 'fulano@gmail.com',
-                    text: 'Olá, eu sou fulano, como você esta?',
-                    name: 'Fulano',
-                    photo: 'https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50'
-                },
-                {
-                    email: 'lucas-fbr@hotmail.com',
-                    text: 'Estou jóia, meu nome é luiz carlos',
-                    name: 'Lucas Rosa',
-                    photo: 'https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50'
-                },
-                {
-                    email: 'lucas-fbr@hotmail.com',
-                    text: 'não te conheço',
-                    name: 'Lucas Rosa',
-                    photo: 'https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50'
-                }
-            ]*/
         };
     },
     methods: {
         isUser: function (email) {
             return this.user.email == email;
         },
+        sendMessage: function () {
+            this.$firebaseRefs.messages.push({
+                name:  this.user.name,
+                email: this.user.email,
+                text:  this.message,
+                photo: this.user.photo,
+
+            });
+        }
     }
 });
 
@@ -109,9 +98,33 @@ var roomsComponent = Vue.extend({
                 <div class="panel-body">
                     {{o.description}}
                     <br />
-                    <a href="#" @click="goToChat($event, o)">Entrar</a>
+                    <a href="#" @click="openModal($event, o)">Entrar</a>
                 </div>
             </div>
+        </div>
+        <div class="modal fade" id="modalLoginEmail" tabindex="-1" role="dialog" aria-labelledby="modalLoginEmail">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Entre com as informações</h4>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="email" v-model="email" placeholder="E-mail">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="name" v-model="name" placeholder="Nome">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary" @click="login">Login</button>
+              </div>
+            </div>
+          </div>
         </div>
         `,
         firebase:{
@@ -119,25 +132,31 @@ var roomsComponent = Vue.extend({
         },
         data: function () {
             return {
-                rooms: [
-                    {id: "001", name: "PHP", description: "Entusiasta do PHP"},
-                    {id: "002", name: "Java", description: "Developer experts"},
-                    {id: "003", name: "C#", description: "Os caras do C#"},
-                    {id: "004", name: "C++", description: "Fissurados por programação"},
-                    {id: "005", name: "Javascript", description: "Olha a web aí!"},
-                    {id: "006", name: "Vue.js", description: "Chat dos caras do data-binding"},
-                ],
+                rooms: [],
                 name: '',
                 email: '',
                 room: null
             }
         },
         methods: {
-            goToChat: function (e, room) {
+            login: function () {
+
+                localStorage.setItem('name', this.name);
+                localStorage.setItem('email', this.email);
+                localStorage.setItem('photo','http://www.gravatar.com/avatar/'+md5(this.email)+'.jpg');
+
+                $('#modalLoginEmail').modal('hide');
+
+                this.$route.router.go('/chat/'+this.room.id);
+            },
+            openModal: function (e, room) {
+
                 e.preventDefault();
 
-                this.$route.router.go('/chat/'+room.id);
-            },
+                this.room = room;
+
+                $('#modalLoginEmail').modal('show');
+            }
         }
 });
 
@@ -167,6 +186,7 @@ var roomsCreateComponent = Vue.extend({
 
         rooms.forEach(function (room) {
             roomsChildren.child(room.id).set({
+                id: room.id,
                 name: room.name,
                 description: room.description
             });
